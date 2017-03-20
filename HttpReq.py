@@ -41,7 +41,7 @@ def RequestPost_cal():
 
     data = {'streamId':id}
     data_encode = urllib.urlencode(data)
-    # requrl = 'http://api.dfsstv.cn/api/v1/Practice/Finish?lessonId='+ str(id)
+
     requrl = '<url>?streamId='+str(id)
 
     requrl = '<url>?lessonId='+ str(id)
